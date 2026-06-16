@@ -13,7 +13,7 @@ st.title("📈 Penampil Data SEG-Y 2D")
 st.markdown("Unggah berkas SEG-Y untuk melihat header lengkap, plot lintasan, tampilan trace, dan visualisasi 3D.")
 
 # --- Unggah Berkas ---
-uploaded_file = st.file_uploader("Pilih berkas SEG-Y", type=["sgy", "segy"])
+uploaded_file = st.file_uploader("Pilih berkas SEG-Y", type=["sgy", "segy"],max_upload_size=1024)
 
 if uploaded_file is not None:
     # Simpan file yang diunggah sebagai file sementara agar bisa dibaca segyio
