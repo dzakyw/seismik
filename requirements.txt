@@ -1,1 +1,6 @@
-streamlit segyio numpy pandas matplotlib plotly
+streamlit 
+segyio 
+numpy 
+pandas 
+matplotlib 
+plotly
