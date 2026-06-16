@@ -1,0 +1,1 @@
+streamlit segyio numpy pandas matplotlib plotly
